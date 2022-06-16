@@ -5,14 +5,21 @@ body,
 }
 
 body {
-  background-color: hsl(180deg, 25%, 92%);
+  background: linear-gradient(
+    to bottom,
+    hsl(180deg, 25%, 92%) 60%,
+    hsl(180deg, 25%, 92%) 0%,
+    hsl(195deg, 20%, 86%) 0%,
+    hsl(195deg, 20%, 86%) 100%
+  );
+  background-attachment: fixed;
   margin: 0;
 }
 
 *,
 *:before,
 *:after {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
